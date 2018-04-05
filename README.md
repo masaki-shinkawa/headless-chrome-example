@@ -8,7 +8,7 @@ Vagrant + docker + headless chrome
 ``vagrant ssh``
 
 ## Dockerfileをビルド
-``sudo docker build -t headless-chrome-image /vagrant
+``sudo docker build -t headless-chrome-image /vagrant``
 
 ## Dockerを起動
 ``sudo docker run -v /vagrant:/tmp/share/ headless-chrome-image``
